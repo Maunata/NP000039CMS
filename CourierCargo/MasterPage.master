@@ -1,0 +1,124 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head id="Head1" runat="server">
+    <title></title>
+    <style type="text/css">
+        .style2
+        {
+            height: 31px;
+        }
+        .auto-style1 {
+            height: 74px;
+            width: 2005px;
+            text-align: left;
+        }
+        .auto-style2 {
+            width: 11px;
+        }
+        .auto-style3 {
+            height: 162px;
+            width: 763px;
+        }
+        .auto-style5 {
+            width: 1052px;
+            height: 234px;
+        }
+        .auto-style6 {
+            width: 1058px;
+        }
+        .auto-style9 {
+            width: 24px;
+            height: 162px;
+        }
+        .auto-style11 {
+            height: 21px;
+            width: 172px;
+        }
+        .auto-style13 {
+            height: 21px;
+            width: 229px;
+        }
+        .auto-style14 {
+            height: 21px;
+            width: 258px;
+        }
+        .auto-style15 {
+            height: 21px;
+            width: 196px;
+        }
+    </style>
+</head>
+<body style="margin:[0][0][0][0]">
+             <form id="form3" runat="server">
+             <table cellpadding  = "0" cellspacing = "0" height = "742" width = "1000" border = "0"> 
+            <tr>
+                <td height = "742" class="auto-style2">
+                &nbsp;</td>
+                <td height = 204 valign=top style="width: 1178px"  >
+               <table>
+                  <tr>
+                  <td valign ="top" class="auto-style1" bgcolor="#99CCFF" style="font-size: xx-large; font-weight: bold; color: #000000; font-style: italic;" >
+                  
+                      Container Management System
+                      </td>
+                  
+                  </tr>
+               </table>
+                    <table class="auto-style6">
+                        <tr>
+                            
+                            <td align=center class="auto-style14">
+                            <a href ="ClientArea.aspx" style="text-decoration: none;"> <span style="font-size: 8pt; font-family: Verdana; color: #4d6064;"><strong>User Work Area</strong></span></a></td>
+                            <td align=center class="auto-style11">
+                            <a href ="ClientList.aspx" style="text-decoration: none;">  <span style="font-size: 8pt; font-family: Verdana; color: #4d6064;"><strong>Our Client</strong></span></a>
+                            </td>
+                           <td align=center class="auto-style15">
+                            <a href ="ContactUs.aspx" style="text-decoration: none;">  <span style="font-size: 8pt; font-family: Verdana; color: #4d6064;"><strong>Contact Us</strong></span></a>
+                            </td>
+                            
+                   
+                            <td align=center class="auto-style4">
+                           <a href ="OurOffices.aspx" style="text-decoration: none;">  <span style="font-size: 8pt; font-family: Verdana; color: #4d6064;"><strong>Our Offices</strong></span></a>
+                            </td>
+                            <td align=center class="auto-style13">
+                            <a href ="Login.aspx" style="text-decoration: none;">  <span style="font-size: 8pt; font-family: Verdana; color: #4d6064;"><strong>Log Out</strong></span></a>
+                            </td>
+                            
+                        </tr>
+                      
+                      
+                    </table>
+                    <table class="auto-style5">
+                        <tr >
+                            
+                            <td style="font-size: 12pt;" align="left" valign="top" bgcolor="#99CCFF" class="auto-style3">
+                                                      <%--<span style="font-size: 12pt; color: #413526; font-family: Verdana;
+                                    mso-fareast-font-family: 'Times New Roman'; mso-bidi-font-family: 'Times New Roman';
+                                    mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA">
+                                    <br />
+                                </span>--%>
+                                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                                </asp:ContentPlaceHolder>
+                             
+                            </td>
+                       </tr>
+                      
+                    </table>
+                </td> 
+                <td width = 196 height = "742">
+                 &nbsp;</td>
+                    
+              
+            </tr>
+            
+          
+        </table>
+    </form> 
+           
+   
+</body>
+</html>
+

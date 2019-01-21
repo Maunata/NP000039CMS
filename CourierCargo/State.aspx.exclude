@@ -1,0 +1,275 @@
+<%@ Page Language="C#" AutoEventWireup="true" CodeFile="State.aspx.cs" Inherits="State" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title>Untitled Page</title>
+</head>
+<body>
+    <form id="form2" runat="server">
+            <table width =100%  border= 0 cellpadding=0 cellspacing=0>
+            <tr>
+                <td height=20px>
+                </td>
+              
+               
+            </tr>
+            <tr>
+                <td height = 12px bgcolor = #4d6064>
+                
+                </td>
+               
+            </tr>
+            <tr>
+                <td height = 15px  >
+                    <table height="15" width="100%">
+                        <tr>
+                            <td align="left" width="20%">
+                                <a href="AdminArea.aspx" style="text-decoration: none"><span style="font-size: 8pt;
+                                    color: #4d6064; font-family: Verdana"><strong>Admin Home</strong></span></a>&nbsp;
+                            </td>
+                            <td align="left" width="20%">
+                                <strong><a href="Manager.aspx" style="text-decoration: none"><span style="font-size: 8pt;
+                                    color: #4d6064; font-family: Verdana">Create User</span></a> </strong>
+                            </td>
+                            <td align="left" width="20%">
+                                <a href="viewComplaint.aspx" style="text-decoration: none"><span style="font-size: 8pt;
+                                    color: #4d6064; font-family: Verdana"><strong>View Complaints</strong></span></a>
+                            </td>
+                            <td align="left" width="20%">
+                                <a href="ViewSuggestion.aspx" style="text-decoration: none"><span style="font-size: 8pt;
+                                    color: #4d6064; font-family: Verdana"><strong>View Suggestion</strong></span></a>
+                            </td>
+                        </tr>
+                    </table>
+                     
+                </td>
+              
+            </tr>
+            
+        </table>
+        <table width = 100% height= 80px border=0 cellpadding = 0 cellspacing=0>
+            <tr>
+                <td align=center valign=middle style="height: 78px; width: 750;" >
+                    <span style="font-size: 10pt; font-family: Verdana; color: #4d6064;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Courier &amp; Cargo
+                Administrator Area</span>&nbsp;</td>
+                <td width = 220px style="height: 78px; font-size: 12pt; color: #4d6064;">
+                    <span style="font-size: 24pt">Courier &amp;<br />
+                        Cargo System</span>&nbsp;</td>
+            </tr>
+          
+          </table>
+          <hr />
+    <div>
+        <table style="width: 100%">
+            <tr>
+                <td style="width: 132px; height: 250px;" valign=top >
+                    <table style="width: 258px" >
+                        <tr>
+                            <td style="width: 3px; height: 1px" valign="middle">
+                            <img src="Design/arrow.JPG" />
+                            </td>
+                            <td style="height: 1px; width :161px" valign="top">
+                                 <a href ="OfficeRegistration.aspx"  style="text-decoration: none;"><strong><span style="font-size: 8pt; color: #4d6064; font-family: Verdana">Create Office</span></strong></a></td>
+                        </tr>
+                        <tr>
+                            <td style="width: 3px; height: 2px" valign="middle">
+                            <img src="Design/arrow.JPG" />
+                            </td>
+                            <td style=" height: 2px; width :161px" valign="top">
+                             <a href = "Container.aspx"  style="text-decoration: none;"><strong><span style="font-size: 8pt; color: #4d6064; font-family: Verdana">Create Container</span></strong></a></td>
+                        </tr>
+                        <tr>
+                            <td  style="width: 3px" valign="middle">
+                             <img src="Design/arrow.JPG" />
+                            </td>
+                            <td style=" height: 2px; width :161px" valign="top">
+                             <a href = "Truck.aspx" style="text-decoration: none;"><strong><span style="font-size: 8pt; color: #4d6064; font-family: Verdana">Create Truck</span></strong></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td  style="width: 3px; height: 19px;" valign="middle">
+                             <img src="Design/arrow.JPG" />
+                            </td>
+                            <td style=" height: 19px; width :161px" valign="top">
+                             <a href ="Network.aspx" style="text-decoration: none;"><strong><span style="font-size: 8pt; color: #4d6064; font-family: Verdana">Create Network</span></strong></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td  style="width: 3px" valign="middle">
+                             <img src="Design/arrow.JPG" />
+                            </td>
+                            <td style=" height: 2px; width :161px" valign="top">
+                             <a href ="RouteDetail.aspx" style="text-decoration: none;"><strong><span style="font-size: 8pt; color: #4d6064; font-family: Verdana">Create Route</span></strong></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="width: 3px" valign="middle">
+                             <img src="Design/arrow.JPG" />
+                            </td>
+                            <td style=" height: 2px; width :161px" valign="top">
+                             <a href ="RouteMap.aspx" style="text-decoration: none;"><strong><span style="font-size: 8pt; color: #4d6064; font-family: Verdana">Create Route Map</span></strong></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td  style="width: 3px" valign="middle">
+                             <img src="Design/arrow.JPG" />
+                            </td>
+                            <td style=" height: 2px; width :161px" valign="top">
+                             <a href="Country.aspx" style="text-decoration: none;"><strong><span style="font-size: 8pt; color: #4d6064; font-family: Verdana">Add Country</span></strong></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td  style="width: 3px" valign="middle">
+                             <img src="Design/arrow.JPG" />
+                            </td>
+                            <td style=" height: 2px; width :161px" valign="top">
+                            <a href ="State.aspx" style="text-decoration: none;"><strong><span style="font-size: 8pt; color: #4d6064; font-family: Verdana">Add State</span></strong></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td  style="width: 3px" valign="middle">
+                             <img src="Design/arrow.JPG" />
+                            </td>
+                            <td style=" height: 2px; width :161px" valign="top">
+                            <a href ="City.aspx" style="text-decoration: none;"><strong><span style="font-size: 8pt; color: #4d6064; font-family: Verdana">Add City</span></strong></a>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+                <td style="width: 2016px; height: 250px;" valign=top >
+                    <table style="width: 312px; height: 145px">
+                        <tr>
+                            <td style="width: 100px">
+                                <strong><span style="font-size: 8pt; color: #3300ff; font-family: Verdana">State</span></strong>
+                            </td>
+                            <td style="width: 100px">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="width: 100px">
+                            </td>
+                            <td style="width: 100px">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="width: 100px; height: 13px">
+                                <span style="font-size: 8pt; color: #3300ff; font-family: Verdana"><span style="color: #4d6064">
+                                    <span style="font-size: 9pt">State</span><span>*</span></span></span></td>
+                            <td style="font-size: 12pt; width: 100px; font-family: Times New Roman; height: 13px">
+        <asp:TextBox ID="txtstate" runat="server" Width="164px"></asp:TextBox></td>
+                        </tr>
+                        <tr style="font-size: 12pt; font-family: Times New Roman">
+                            <td style="width: 100px">
+                                <span style="font-size: 8pt; color: #3300ff; font-family: Verdana"><span style="color: #4d6064">
+                                    <span style="font-size: 9pt">Country</span><span style="color: #ff0066"></span></span></span></td>
+                            <td style="width: 100px">
+                                <asp:DropDownList ID="DropDownList1" runat="server" DataSourceID="SqlDataSource1"
+            DataTextField="Country" DataValueField="ID" Width="177px">
+        </asp:DropDownList></td>
+                        </tr>
+                        <tr>
+                            <td style="width: 100px">
+        <asp:Button ID="btnAddState" runat="server" OnClick="btnAddState_Click" Text="Add State"
+            Width="86px" Font-Names="Verdana" /></td>
+                            <td style="width: 100px">
+        <asp:Button ID="btnSearch" runat="server" Text="Search State  >>" Width="134px" PostBackUrl="~/StateEdit.aspx" OnClick="btnSearch_Click" Font-Names="Verdana" CausesValidation="False" /></td>
+                        </tr>
+                        <tr>
+                            <td style="width: 100px">
+                            </td>
+                            <td style="width: 100px">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+        <asp:Label ID="lblMessage" runat="server" Text=" " Width="344px"></asp:Label></td>
+                        </tr>
+                    </table>
+                    <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ControlToValidate="txtstate"
+                        ErrorMessage="Enter the State"></asp:RequiredFieldValidator></td>
+                <td style="width: 590px; height: 250px" valign="top">
+                </td>
+                <td style="width: 98px; height: 250px;" align="right" valign="top">
+                    <table style="width: 125px">
+                        <tr>
+                            <td align="right" style="height: 15px">
+                                <a href="frmAdmin.aspx" style="text-decoration: none"><span style="font-size: 8pt;
+                                    color: #4d6064; font-family: Verdana">New Login</span></a></td>
+                        </tr>
+                        <tr>
+                            <td align="right" style="height: 15px">
+                                <a href="home.aspx" style="text-decoration: none"><span style="font-size: 8pt; color: #4d6064;
+                                    font-family: Verdana">Log Out</span></a>
+                            </td>
+                        </tr>
+                    </table>
+                    <table style="width: 125px">
+                        <tr>
+                            <td style="width: 17px; height: 8px">
+                            </td>
+                            <td align="left" style="width: 94px; height: 8px" valign="top">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="width: 17px; height: 8px">
+                            </td>
+                            <td align="left" style="width: 94px; height: 8px" valign="top">
+                                <span style="font-size: 9pt; color: #3333cc; font-family: Verdana"><strong>Search</strong></span></td>
+                        </tr>
+                        <tr>
+                            <td style="width: 17px; height: 7px">
+                            </td>
+                            <td align="left" style="width: 94px; height: 7px" valign="top">
+                                <strong><span style="font-size: 8pt; color: #4d6064; font-family: Verdana"></span></strong>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="width: 17px; height: 17px">
+                                <img src="Design/arrow.JPG" />
+                            </td>
+                            <td align="left" style="width: 94px; height: 17px" valign="top">
+                                <a href="ATruckSearch.aspx" style="text-decoration: none"><strong><span style="font-size: 8pt;
+                                    color: #4d6064; font-family: Verdana">Truck</span></strong></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="width: 17px; height: 14px">
+                                <img src="Design/arrow.JPG" />
+                            </td>
+                            <td align="left" style="width: 94px; height: 14px" valign="top">
+                                <a href="AContainerSearch.aspx" style="text-decoration: none"><strong><span style="font-size: 8pt;
+                                    color: #4d6064; font-family: Verdana">Container</span></strong></a></td>
+                        </tr>
+                        <tr>
+                            <td style="width: 17px; height: 14px">
+                                <img src="Design/arrow.JPG" />
+                            </td>
+                            <td align="left" style="width: 94px; height: 14px" valign="top">
+                                <a href="ASearchByLot.aspx" style="text-decoration: none"><strong><span style="font-size: 8pt;
+                                    color: #4d6064; font-family: Verdana">Lot</span></strong></a></td>
+                        </tr>
+                        <tr>
+                            <td style="width: 17px; height: 15px">
+                                <img src="Design/arrow.JPG" />
+                            </td>
+                            <td align="left" style="width: 94px; height: 15px" valign="top">
+                                <a href="ASearchByBookingNo.aspx" style="text-decoration: none"><strong><span style="font-size: 8pt;
+                                    color: #4d6064; font-family: Verdana">Booking No</span></strong></a></td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    
+    </div>
+   
+    <div>
+        <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:CourierServiceConnectionString18 %>"
+            SelectCommand="SELECT [ID], [Country] FROM [Country]"></asp:SqlDataSource>
+        &nbsp;</div>
+    </form>
+</body>
+</html>
